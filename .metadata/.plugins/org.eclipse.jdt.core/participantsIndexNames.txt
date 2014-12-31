@@ -1,3 +1,9 @@
 INDEX VERSION 1.127
 C:\Users\Kenneth\lunaWS\github\SSHMySqlMVN\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3957924675.index
 \com.kenneth.test\src\main\java
+C:\Users\Kenneth\lunaWS\github\SSHMySqlMVN\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2004295146.index
+\com.kenneth.test\src\main\java
+C:\Users\Kenneth\lunaWS\github\SSHMySqlMVN\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2126574495.index
+\testMVNSpring\src\main\resources
+C:\Users\Kenneth\lunaWS\github\SSHMySqlMVN\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1009377971.index
+\com.kenneth.test\src\main\java
