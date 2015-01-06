@@ -1,6 +1,6 @@
 package sso.dao.entity;
 
-// Generated 2014/12/31 ¤U¤È 06:34:20 by Hibernate Tools 3.4.0.CR1
+// Generated 2015/1/6 ¤U¤È 04:06:55 by Hibernate Tools 3.4.0.CR1
 
 import javax.persistence.Column;
 import javax.persistence.Embeddable;
@@ -11,10 +11,6 @@ import javax.persistence.Embeddable;
 @Embeddable
 public class ActorInfoId implements java.io.Serializable {
 
-	/**
-	 * 
-	 */
-	private static final long serialVersionUID = 1L;
 	private short actorId;
 	private String firstName;
 	private String lastName;

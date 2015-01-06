@@ -1,6 +1,6 @@
 package sso.dao.entity;
 
-// Generated 2014/12/31 ¤U¤È 06:34:20 by Hibernate Tools 3.4.0.CR1
+// Generated 2015/1/6 ¤U¤È 04:06:55 by Hibernate Tools 3.4.0.CR1
 
 import javax.persistence.AttributeOverride;
 import javax.persistence.AttributeOverrides;
@@ -16,10 +16,6 @@ import javax.persistence.Table;
 @Table(name = "actor_info", catalog = "sakila")
 public class ActorInfo implements java.io.Serializable {
 
-	/**
-	 * 
-	 */
-	private static final long serialVersionUID = 1L;
 	private ActorInfoId id;
 
 	public ActorInfo() {

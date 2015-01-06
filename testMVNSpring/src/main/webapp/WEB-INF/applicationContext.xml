@@ -13,6 +13,7 @@
 			http://www.springframework.org/schema/tx 
 			http://www.springframework.org/schema/tx/spring-tx-3.1.xsd"
 >
+ 	
  	<context:annotation-config />
  	<!-- 使用anotation的路徑 -->
 	<context:component-scan base-package="sso" />
@@ -34,9 +35,9 @@
 	    <property name="annotatedClasses">
 			<list>
  				<value>sso.dao.entity.Actor</value>
-		<!--		<value>nerdy.entity.ActorInfo</value>
-				<value>nerdy.entity.ActorInfoId</value>
-				<value>nerdy.entity.Address</value> -->
+				<value>sso.dao.entity.ActorInfo</value>
+				<value>sso.dao.entity.ActorInfoId</value>
+				<value>sso.dao.entity.Address</value>
 			</list>
 	    </property>
 	    <property name="hibernateProperties">
@@ -51,20 +52,28 @@
 	<bean id="txManager" class="org.springframework.orm.hibernate4.HibernateTransactionManager">
 		<property name="sessionFactory" ref="sessionFactory" />
 	</bean>
-	
+	<tx:annotation-driven />
 	<tx:advice id="txAdvice" transaction-manager="txManager" >
 	    <tx:attributes>
 	        <!-- <tx:method name="get*" read-only= "true" /> -->
-	        <tx:method name="*" 
+<!-- 	        <tx:method name="*" 
 	        	rollback-for="HibernateException"
 	        	propagation="REQUIRED" 
-	        />
+	        /> -->
+			<tx:method name="insert*" propagation="REQUIRED"/> 
+			<tx:method name="update*" propagation="REQUIRED"/> 
+			<tx:method name="delete*" propagation="REQUIRED"/> 
+			<tx:method name="query*" propagation="REQUIRED"/> 
+			<tx:method name="*" read-only="true" /> 
 	    </tx:attributes>
 	</tx:advice> 
 	
 	<aop:config>
 	    <aop:pointcut id="serviceMethods" 
-	        expression="execution(public * sso.action.IndexAction..*.*(..))"/> 
+	        expression="execution(* sso.service..*.*(..))"/>
 	    <aop:advisor pointcut-ref="serviceMethods" advice-ref="txAdvice"/> 
     </aop:config>	
+    <!-- <aop:config>
+ 		<aop:advisor advice-ref="txAdvice" pointcut="execution(* sso.dao.impl.*.*(..))" /> 
+ 	</aop:config> -->
 </beans>

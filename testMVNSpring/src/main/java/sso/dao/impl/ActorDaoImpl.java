@@ -25,8 +25,7 @@ public class ActorDaoImpl implements ActorDao  {
 	public int countActors() throws Exception {
 		logger.debug("==============================sessionFactory{}",ToStringBuilder.reflectionToString(sessionFactory));
 		logger.debug("==============================sessionFactory{}",sessionFactory);
-		Criteria criteria = sessionFactory.openSession().createCriteria(Actor.class);
-		
+		Criteria criteria = sessionFactory.getCurrentSession().createCriteria(Actor.class);
 		if(criteria!=null && CollectionUtils.isNotEmpty(criteria.list())){
 			return criteria.list().size();
 		}else{
