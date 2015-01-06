@@ -15,7 +15,7 @@
 >
  	<context:annotation-config />
  	<!-- 使用anotation的路徑 -->
-	<context:component-scan base-package="testMVNSpring" />
+	<context:component-scan base-package="sso" />
  	<!-- 讓Autowired動作-->
 	<bean class="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor" />
 	
@@ -33,7 +33,7 @@
 	    <property name="dataSource" ref="myDataSource"/>
 	    <property name="annotatedClasses">
 			<list>
- 				<value>dao.entity.Actor</value>
+ 				<value>sso.dao.entity.Actor</value>
 		<!--		<value>nerdy.entity.ActorInfo</value>
 				<value>nerdy.entity.ActorInfoId</value>
 				<value>nerdy.entity.Address</value> -->
@@ -61,9 +61,6 @@
 	        />
 	    </tx:attributes>
 	</tx:advice> 
-	
-	<!-- <bean id="indexAction" class="sso.action.IndexAction"></bean> -->
-	<!-- <bean id="mapTestAction" class="nerdy.action.MapTestAction"></bean> -->
 	
 	<aop:config>
 	    <aop:pointcut id="serviceMethods" 
