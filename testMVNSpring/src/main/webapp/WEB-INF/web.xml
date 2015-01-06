@@ -26,5 +26,9 @@
   <!-- 配置監聽 -->  
   <listener>  
     <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>  
-  </listener>  
+  </listener>
+  <!-- tiles的配置 -->  
+  <listener>
+      <listener-class>org.apache.struts2.tiles.StrutsTilesListener</listener-class>
+  </listener>
 </web-app>  

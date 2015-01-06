@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN" 
+"http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+
+<tiles-definitions>
+    <definition name="sso.base" template="/pages/layouts/classic.jsp">
+        <put-attribute name="sso_header" value="/pages/layouts/header_tpl.jsp" />
+        <put-attribute name="sso_body" value="/pages/index.jsp" />
+        <put-attribute name="sso_footer" value="/pages/layouts/footer_tpl.jsp" />
+    </definition>
+    
+    
+	<!-- index -->
+	<definition name="index" extends="sso.base">
+		<put-attribute name="body" value="/pages/index.jsp" />
+	</definition>
+	
+	
+</tiles-definitions>
+
