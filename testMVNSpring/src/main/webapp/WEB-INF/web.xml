@@ -31,4 +31,18 @@
   <listener>
       <listener-class>org.apache.struts2.tiles.StrutsTilesListener</listener-class>
   </listener>
+  <context-param>
+	  <param-name>org.apache.tiles.context.AbstractTilesApplicationContextFactory</param-name>
+	  <param-value>
+	      org.apache.tiles.servlet.context.wildcard.WildcardServletTilesApplicationContextFactory
+	  </param-value>
+  </context-param>
+  <context-param>
+	  <param-name>org.apache.tiles.impl.BasicTilesContainer.DEFINITIONS_CONFIG</param-name>
+	  <param-value><!-- 多個tiles文件以逗號隔開 -->
+	 		 /WEB-INF/tiles.xml,/WEB-INF/tiles/*.xml
+	 		 <!-- ,classpath:/modules/**/*tiles.xml -->
+	  </param-value>
+  </context-param>
+  
 </web-app>  

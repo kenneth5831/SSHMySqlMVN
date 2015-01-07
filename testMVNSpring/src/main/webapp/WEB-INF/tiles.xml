@@ -8,13 +8,5 @@
         <put-attribute name="sso_body" value="/pages/index.jsp" />
         <put-attribute name="sso_footer" value="/pages/layouts/footer_tpl.jsp" />
     </definition>
-    
-    
-	<!-- index -->
-	<definition name="index" extends="sso.base">
-		<put-attribute name="body" value="/pages/index.jsp" />
-	</definition>
-	
-	
 </tiles-definitions>
 
