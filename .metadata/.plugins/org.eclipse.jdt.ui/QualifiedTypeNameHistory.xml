@@ -1,5 +1,29 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="com.opensymphony.xwork2.ActionSupport"/>
+<fullyQualifiedTypeName name="org.hibernate.SessionFactory"/>
+<fullyQualifiedTypeName name="org.hibernate.Criteria"/>
+<fullyQualifiedTypeName name="dao.entity.Actor"/>
 <fullyQualifiedTypeName name="java.lang.Override"/>
+<fullyQualifiedTypeName name="dao.ActorDao"/>
+<fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
+<fullyQualifiedTypeName name="sso.service.ssoService"/>
+<fullyQualifiedTypeName name="sso.service.SsoService"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+<fullyQualifiedTypeName name="org.apache.commons.collections.CollectionUtils"/>
+<fullyQualifiedTypeName name="com.opensymphony.xwork2.util.logging.LoggerFactory"/>
+<fullyQualifiedTypeName name="java.lang.Exception"/>
+<fullyQualifiedTypeName name="org.apache.commons.lang3.builder.ToStringBuilder"/>
+<fullyQualifiedTypeName name="org.hibernate.service.ServiceRegistry"/>
+<fullyQualifiedTypeName name="org.hibernate.HibernateException"/>
+<fullyQualifiedTypeName name="org.hibernate.cfg.Configuration"/>
+<fullyQualifiedTypeName name="org.hibernate.service.ServiceRegistryBuilder"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Qualifier"/>
+<fullyQualifiedTypeName name="sso.dao.ActorDao"/>
+<fullyQualifiedTypeName name="sso.dao.entity.Actor"/>
+<fullyQualifiedTypeName name="org.slf4j.LoggerFactory"/>
+<fullyQualifiedTypeName name="org.slf4j.Logger"/>
+<fullyQualifiedTypeName name="org.springframework.context.annotation.Configuration"/>
+<fullyQualifiedTypeName name="org.springframework.context.annotation.ComponentScan"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PathVariable"/>
 </qualifiedTypeNameHistroy>

@@ -22,8 +22,20 @@
 	</section>
 	<section name="org.eclipse.m2e.core.pom.dependencies">
 	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.wizards.CustomArchetypeDialog">
+	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\Kenneth\lunaWS"/>
+			<item value="C:\Users\Kenneth\lunaWS\github\SSHMySqlMVN"/>
+			<item value="C:\Users\Kenneth\lunaWS\github"/>
+			<item value="C:\Users\Kenneth\NewTest\SpringBootTest"/>
+			<item value="C:\Users\Kenneth\NewTest\NewTest"/>
+			<item value="C:\Users\Kenneth\lunaWS\newTest"/>
+			<item value="C:\Users\Kenneth\lunaWS\tttttt"/>
+			<item value="C:\Users\Kenneth\lunaWS\github\testSpringOSGIProject"/>
+			<item value="C:\Users\Kenneth\lunaWS\github\testProj"/>
+			<item value="C:\Users\Kenneth\lunaWS\github\SSHMySqlMVN\testMVNSpring"/>
 			<item value="C:\Users\Kenneth\lunaWS\github\SSHMySqlMVN\com.kenneth.test"/>
 			<item value="C:\Users\Kenneth\lunaWS\github\SSHMySqlMVN\com.kenneth.test\pom.xml"/>
 		</list>
@@ -74,10 +86,29 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="KennethMassenger"/>
+			<item value="TestSSH"/>
+			<item value="testSSHProject"/>
+			<item value="SpringBootTest"/>
+			<item value="org.springframework.boot"/>
+			<item value="testSpringOSGI"/>
+			<item value="org.springframework"/>
 		</list>
 		<list key="name">
+			<item value="KennethMassenger"/>
+			<item value="TestSSH"/>
+			<item value="testSSHProject"/>
+			<item value="SpringBootTest"/>
+			<item value="testSpringOSGI"/>
 		</list>
 		<list key="artifactId">
+			<item value="KennethMassenger"/>
+			<item value="TestSSH"/>
+			<item value="testSSHProject"/>
+			<item value="SpringBootTest"/>
+			<item value="spring-boot-starter-parent"/>
+			<item value="testSpringOSGI"/>
+			<item value="spring-context"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -88,6 +119,8 @@
 		</list>
 		<list key="version">
 			<item value="0.0.1-SNAPSHOT"/>
+			<item value="1.2.1.RELEASE"/>
+			<item value="4.1.4.RELEASE"/>
 		</list>
 	</section>
 </section>

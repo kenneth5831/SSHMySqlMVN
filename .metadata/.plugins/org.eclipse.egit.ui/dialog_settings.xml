@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
-	<item value="true" key="CommitDialog.showUntracked"/>
+	<item value="false" key="CommitDialog.showUntracked"/>
 	<list key="CommitDialog.authorValues">
 		<item value="kenneth5831 &lt;kenneth5831@gmail.com&gt;"/>
 	</list>
@@ -18,9 +18,9 @@
 	</section>
 	<section name="org.eclipse.egit.ui.COMMIT_DIALOG_SECTION">
 		<item value="642" key="DIALOG_WIDTH"/>
-		<item value="77" key="DIALOG_Y_ORIGIN"/>
+		<item value="103" key="DIALOG_Y_ORIGIN"/>
 		<item value="643" key="DIALOG_HEIGHT"/>
-		<item value="327" key="DIALOG_X_ORIGIN"/>
+		<item value="517" key="DIALOG_X_ORIGIN"/>
 		<item value="1|微軟正黑體|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|微軟正黑體" key="DIALOG_FONT_NAME"/>
 	</section>
 	<section name="org.eclipse.egit.ui.internal.merge.MergeResultDialog.dialogBounds">
@@ -32,9 +32,9 @@
 	</section>
 	<section name="org.eclipse.egit.ui.internal.push.PushResultDialog.dialogBounds">
 		<item value="666" key="DIALOG_WIDTH"/>
-		<item value="199" key="DIALOG_Y_ORIGIN"/>
+		<item value="286" key="DIALOG_Y_ORIGIN"/>
 		<item value="460" key="DIALOG_HEIGHT"/>
-		<item value="315" key="DIALOG_X_ORIGIN"/>
+		<item value="299" key="DIALOG_X_ORIGIN"/>
 		<item value="1|微軟正黑體|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|微軟正黑體" key="DIALOG_FONT_NAME"/>
 	</section>
 </section>
