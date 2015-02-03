@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE struts PUBLIC  
+    "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"  
+    "http://struts.apache.org/dtds/struts-2.3.dtd">  
+  
+<struts>  
+    <constant name="struts.objectFactory" value="spring" />  
+  
+    <package name="default" namespace="/" extends="struts-default">  
+        <result-types>
+            <result-type name="tiles" class="org.apache.struts2.views.tiles.TilesResult" />
+        </result-types> 
+        <default-action-ref name="index" />  
+        <global-exception-mappings>  
+            <exception-mapping result="error" exception="java.lang.Exception" />  
+        </global-exception-mappings>  
+          
+        <action name="error">  
+            <result>error.jsp</result>  
+        </action>  
+     <!--    <action name="login" class="com.accp.actions.UserAction" method="login">  
+           <result name="teacher">/WEB-INF/content/Teacher/main.jsp</result>  
+           <result name="student">/WEB-INF/content/Student/main.jsp</result>  
+           <result name="admin">/WEB-INF/content/Admin/main.jsp</result>  
+           <result name="input">/login.jsp</result>  
+        </action>  
+          
+        <action name="register" class="com.accp.actions.UserAction" method="register">  
+           <result name="success">/login.jsp</result>  
+           <result name="input">/register.jsp</result>  
+        </action>   -->
+
+<!--         <action name="mapTest" class="mapTestAction" method="map">  
+           <result name="success">/index/mapTest.jsp</result>  
+        </action>  -->
+    </package>  
+    
+    <package name="sso" namespace="/" extends="default" >
+    	<action name="index" class="sso.action.IndexAction" method="index" >  
+           <result name="index" type="tiles">index</result>  
+        </action> 
+    </package>
+    
+    <!-- <include file="/modules/sso/sso.xml" /> -->
+</struts>  
