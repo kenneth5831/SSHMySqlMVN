@@ -8,7 +8,7 @@
     <name>testMVNSpring</name>
     <url>http://maven.apache.org</url>
     <properties>
-        <spring.version>4.0.2.RELEASE</spring.version>
+        <spring.version>5.2.21.RELEASE</spring.version>
         <hibernate.version>4.3.4.Final</hibernate.version>
         <struts2.version>2.3.4</struts2.version>
 	  	<tiles.version>2.1.4</tiles.version>
